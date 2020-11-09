@@ -2,7 +2,6 @@ package com.tool.sts.config;
 
 import java.io.File;
 
-import javax.servlet.FilterRegistration;
 import javax.servlet.MultipartConfigElement;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
@@ -10,9 +9,8 @@ import javax.servlet.ServletRegistration;
 import javax.servlet.ServletRegistration.Dynamic;
 
 import org.springframework.context.annotation.Configuration;
-import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
-
+@Configuration
 public class FirstStsToolWebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
 	@Override

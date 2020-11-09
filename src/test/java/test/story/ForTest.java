@@ -7,8 +7,6 @@ public class ForTest {
 				System.out.println("ok!!!");
 				break;
 			}
-			System.out.println(i);
-			System.out.println("wertyuioiuy");
 		}
 		
 	}
