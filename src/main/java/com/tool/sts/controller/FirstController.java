@@ -11,6 +11,7 @@ public class FirstController {
 	
 	@RequestMapping(value = "/first", method = RequestMethod.GET)
 	public String test() {
+		System.out.println(123456);
 		
 		return "1234567898765432中文文中";
 		
