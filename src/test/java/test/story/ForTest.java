@@ -10,10 +10,6 @@ public class ForTest {
 			System.out.println(i);
 		}
 		
-		
-		System.out.println();
-		
-		
 	}
 
 }
